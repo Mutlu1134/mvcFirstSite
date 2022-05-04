@@ -15,4 +15,4 @@
 10. Shared->\_Layout üzerinde parçalama düzenleme yaparken. Örneğin \_layout'un Head kısmını kesiyoruz. \_Head.cshtml oluşturup oraya kaydediyoruz. \_Layout.cshtml'de kestiğimiz yere kestiğimiz kodu çağırmak için `@{await Html.RenderPartialAsync("_Head");}` yazıyoruz..
 
 11. Bu şekilde \_Header \_Footer \_Script vs.yi parçalıyoruz ki kolay yönetebilelim.
-12. Body içinde değişken yere ise `@RenderBody()` yazıyoruz.
+12. Body içinde değişken yere ise `@RenderBody()` yazıyoruz..
